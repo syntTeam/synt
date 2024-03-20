@@ -2,13 +2,13 @@
 
 The one for you.
 
-Planned Features:
-### The basics
+## Planned Features:
+### Currently
 - [ ] IDT
 - [x] Keyboard input
 - [ ] A functional file system and OS installer
 - [ ] Usermode
 - [ ] Etc..
-### Future
+### In the Future
 - [ ] GUI
 - [ ] User apps
