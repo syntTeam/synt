@@ -1,4 +1,4 @@
-#define WHITE_TXT 0x2F
+#define WHITE_TXT 0x0F
 
 void k_clear_screen();
 unsigned int k_printf(char *message, unsigned int line);
@@ -6,7 +6,7 @@ unsigned int k_printf(char *message, unsigned int line);
 void k_main() 
 {
 	k_clear_screen();
-	k_printf("Synt, the one for you.", 0);
+	k_printf("Welcome to synt, the world's most advanced and amazing operating system!", 0);
 };
 
 void k_clear_screen()
