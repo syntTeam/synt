@@ -100,5 +100,5 @@ void kernel_main(void)
 	terminal_initialize();
  
 	/* Newline support is left as an exercise. */
-	terminal_writestring("synt, the one for you.");
+	terminal_writestring("synt has booted.");
 }
