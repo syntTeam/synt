@@ -1,3 +1,9 @@
 # synt
 
-A modern 32 bit operating system.
+The one for you.
+
+Features:
+- [] A working filesystem
+- [] Keyboard input
+- [] GUI
+- [] User apps
