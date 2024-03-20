@@ -1,3 +1,3 @@
-# Synt
+# synt
 
-Uh oh! You came across an empty repo, sucks for you!
+A modern 32 bit operating system.
