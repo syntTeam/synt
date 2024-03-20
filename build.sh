@@ -6,6 +6,6 @@ mkdir -p isodir/boot/grub
 cp kernel.bin isodir/boot/kernel.bin
 cp grub.cfg isodir/boot/grub/grub.cfg
 grub-mkrescue -o synt.iso isodir
-rm -f kernel.bin grub.cfg
+rm -f kernel.bin
 rm -rf isodir
 qemu-system-i386 -hda synt.iso
