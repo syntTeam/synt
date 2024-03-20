@@ -3,12 +3,12 @@
 The one for you.
 
 Planned Features:
-# The basics
+### The basics
 - [ ] IDT
-- [ ] Keyboard input
+- [x] Keyboard input
 - [ ] A functional file system and OS installer
 - [ ] Usermode
-- Etc..
-# Future
+- [ ] Etc..
+### Future
 - [ ] GUI
 - [ ] User apps
