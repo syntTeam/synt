@@ -1,2 +1,4 @@
-# w kernel
-*.bin
+/limine
+/ovmf*
+*.iso
+*.hdd
