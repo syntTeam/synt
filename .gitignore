@@ -2,3 +2,4 @@
 *.iso
 *.hdd
 /limine
+.DS_Store
