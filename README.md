@@ -34,5 +34,9 @@ To build **synt**, you'll need to set up your development environment and follow
 
 ### Build Instructions
 
-1. **Build the project**
-  - run `./build.sh` (this shell script will be replaced in the future)
+1. **Build the project:**
+   - Run `make clean`
+   - Then, run `make build`
+
+2. **Testing:**
+   - Type `make run` to run the built ISO in qemu.
