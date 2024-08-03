@@ -2,13 +2,13 @@
 
 The one for you.
 
-## Planned Features:
+## Progress:
 ### Currently
-- [ ] IDT
-- [x] Keyboard input
-- [ ] A functional file system and OS installer
-- [ ] Usermode
-- [ ] Etc..
+- [ ] IDT, GDT
+- [ ] Keyboard input
 ### In the Future
 - [ ] GUI
 - [ ] User apps
+- [ ] A functional file system and OS installer
+- [ ] Usermode
+- [ ] Etc..
