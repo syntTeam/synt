@@ -1,7 +1,7 @@
 # Variables
 CC = x86_64-elf-gcc
 LD = x86_64-elf-ld
-CFLAGS = -ffreestanding -I "limine"
+CFLAGS = -ffreestanding -I "limine" -I "include"
 LDFLAGS = -T src/linker.ld
 OUT_DIR = out
 ISO_DIR = out/iso_root
@@ -14,7 +14,7 @@ LIMINE_DIR = limine
 # Targets
 .PHONY: all build run clean
 
-all: build run
+all: clean build run
 
 build: $(ISO_FILE)
 
@@ -42,10 +42,6 @@ $(KERNEL_BIN): $(KERNEL_OBJ)
 $(KERNEL_OBJ): src/kernel/main.c
 	@mkdir -p $(OUT_DIR)
 	$(CC) $(CFLAGS) -c src/kernel/main.c -o $(KERNEL_OBJ)
-	if [ $$? -ne 0 ]; then \
-	    echo "Kernel compilation failed!"; \
-	    exit 1; \
-	fi
 
 run: $(ISO_FILE)
 	@echo "Running ISO with QEMU..."

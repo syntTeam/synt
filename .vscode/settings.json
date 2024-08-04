@@ -1,0 +1,7 @@
+{
+  "files.associations": {
+    "*.zb": "zb",
+    "limine.h": "c",
+    "fb.h": "c"
+  }
+}
