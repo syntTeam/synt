@@ -3,3 +3,5 @@
 *.hdd
 /limine
 .DS_Store
+/out
+/.vscode
